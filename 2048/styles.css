@@ -1,0 +1,91 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.back_icon{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+}
+.back_icon:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+.logo_Img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+p{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    width: 300px;
+    position: absolute;
+    bottom: 200px;
+    right: 40px;
+    color: rgb(219, 111, 10);  
+    font-family: Georgia, serif, vardana;
+}
+#instructions{
+    width: 300px;
+    position: absolute;
+    bottom: 150px;
+    right: 40px;
+    color: rgb(23, 24, 20);
+    font-family: serif;
+}
+#score{
+    text-align: center;
+    color: rgb(114, 6, 6);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.clear{
+    clear: both;
+}
+#size-bloc{
+    margin-left: -50px;
+    padding-left: 50%;
+}
+
+#size-title{
+    float: left;
+    margin-top: 0px;
+}
+
+#size{
+    width: 100px;
+    height: 25px;
+    margin-left: -80px;
+    border: 4px solid #85522a;
+    border-radius: 15px;
+    background-color: rgb(221, 233, 167); 
+    font-weight: bold;
+    font-size: large;
+}
+
+#canvas{
+    background-color: burlywood;
+}
+
+#canvas-block{
+    margin-left: -250px;
+    padding-left: 50%;
+}
+#change-size{
+    background-color: bisque;
+    border: 4px solid #85522a;
+    border-radius: 4px;
+    font-weight: bold;
+}

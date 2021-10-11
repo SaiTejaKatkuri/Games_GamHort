@@ -1,0 +1,37 @@
+<doctype html>
+<html>
+ <body>
+     <link href="./styles.css" rel="stylesheet">
+     <a href="../index.html"><img src="../Assets/back_icon.png" class="back_icon"></a>
+    <img src="../Assets/Logo.png" class="logo_Img"></img><hr/>
+     <h1 align="center">Blackjack</h1><hr><br>
+     <br>
+     <div class="cardsBody">
+        <div id="dealer-cards" class="cardShow">Dealer Cards:
+        </div>
+        <br>
+        <div id="player-cards" class="cardShow"> Player Cards:
+        </div>
+        <br>
+    </div>
+     <form name="blackjack" onSubmit="newGame(); return false;">
+        <input type='submit' id='new-game-button' value='Deal'/>
+        <input type='button' id='hit-button' value='Hit' onclick='hit();' disabled/>
+        <input type='button' id='stand-button' value='Stand' onclick='stand();' disabled/>
+        <br>
+        <br>
+        <div id=player-money></div>
+        Bet: 
+        <input type='number' id='bet' value='10' min='1' max="100"/>
+    </form>
+     <br>
+     <br>
+     Score:
+     <div id="player-score"></div>
+     <div id="dealer-score"></div>
+     <br>
+     <h2 id="message-board" class="endResult"></h2>
+     <script src="app.js">
+     </script>
+</body>
+</html>

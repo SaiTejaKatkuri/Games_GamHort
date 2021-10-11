@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="./styles.css" rel="stylesheet">
+  <title>2048</title>
+</head>
+<body>
+    <a href="../index.html"><img src="../Assets/back_icon.png" class="back_icon"></a>
+    <img src="../Assets/Logo.png" class="logo_Img"></img><hr/>
+  <h1>2048</h1>
+  <p id="score"></p>
+  <h2>Instructions:-</h2>
+  <p id="instructions">Hit the arrow keys to slide the tiles and reach the <span>2048🐴</span> tile!</p>
+  <div id="size-bloc">
+    <p id="size-title">Size : </p>
+    <input id="size" type="number" value="4">
+    <input id="change-size" type="button" value="Ok">
+    <div class="clear"></div>
+  </div>
+  <div id="canvas-block">
+    <canvas id="canvas" width="500" height="500"></canvas>
+  </div>
+  <script src="./script2048.js"></script>
+</body>
+</html>
